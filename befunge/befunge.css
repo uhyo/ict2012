@@ -1,0 +1,59 @@
+.panel{
+	background-color: rgba(128,128,128,.5);
+	width:100%;
+	height:100%;
+	color:white;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:10;
+	text-align:center;
+}
+.panel h1{
+	font-size:1.5em;
+}
+.panel h2{
+	font-size:1.2em;
+}
+.panel.simple{
+	padding-top:200px;
+	font-size:100px;
+}
+.panel.levelselect, .panel.importantpanel{
+	font-size:2.4em;
+	line-height:1em;
+	text-align:left;
+}
+.panel.importantpanel{
+	z-index:15;
+}
+.levelselect li.selected{
+	color:#ff4444;
+}
+.levelselect.inactive{
+	background-color: rgba(128,128,128,.5);
+	border-radius:20px;
+	color:white;
+	padding:10px;
+}
+.order{
+	color:#ff4444;
+}
+
+.ipInfo{
+	width:40%;
+	padding:14px;
+	border-radius:14px;
+	display:inline-block;
+	margin-right:20px;
+	min-height:100px;
+}
+.output{
+	word-wrap:break-word;
+}
+.output kbd.number{
+	color:#0000ff;
+}
+.output kbd.string{
+	color:#ff0000;
+}
